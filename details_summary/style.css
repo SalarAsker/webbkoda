@@ -1,0 +1,46 @@
+/* CSS FILE
+#d3d3d3
+#ffffe0
+ */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #d3d3d3;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.faq-wrapper{
+    width: 70%;
+    /* height: 100vh; */
+    margin: 20px auto;
+    background-color: #ffffe0;
+    padding: 25px;
+    border-radius: 10%;
+}
+.faq-heading{
+    text-align: center;
+    font-weight: normal;
+    font-size: 3em;
+    padding: 25px;
+}
+.faq{
+    padding: 25px;
+}
+.faq details{
+    margin-top: 20px;
+}
+.faq summary{
+    cursor: pointer;
+    list-style: none;
+    font-size: 1.5em;
+    padding: 20px;
+    background-color:#d3d3d3 ;
+}
+details p{
+    border-radius: 0 0  10px 10px;
+    background-color: #ddd;
+    padding: 2px 6px;
+    margin: 0;
+}
